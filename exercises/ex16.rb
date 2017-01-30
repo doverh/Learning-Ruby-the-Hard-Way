@@ -33,3 +33,13 @@ target.write(line3)
 puts "And finaly we close it"
 
 target.close
+
+filename = ARGV.first
+
+txt_file = open(filename)
+
+print txt_file.read
+
+# open(target)
+# print target.read
+# target.close
